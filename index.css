@@ -1,0 +1,205 @@
+body {
+    background: rgb(148, 143, 143); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    }
+
+.main {
+    background-color: rgb(246, 250, 250);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.upperpart {
+    padding: 20px;
+}
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 2.5em;
+}
+p {
+    line-height: 2rem;
+}
+h4 {
+    color: hsl(71, 73%, 54%);
+}
+.secondPart {
+    display: flex;
+
+}
+.side1 {
+    background-color: hsl(179, 68%, 30%);
+    height: 300px;
+    width: 50%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+}
+h5 {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    margin-bottom: 0.2em;
+}
+.pay{
+    display: flex;
+    justify-content: center;    
+}
+h3 {
+    font-weight: bolder;
+    font-size: 25px;
+}
+h6{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: small;
+    color: rgb(161, 170, 179);
+}
+button {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    padding: 15px 60px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.25s;
+}
+button:hover {
+    /* border: 2px solid #21aa1c; */
+    background-color: rgb(8, 255, 49);
+    color: rgb(247, 247, 247);
+    box-shadow: 0 0.5em 0.5em -0.35em rgb(8, 255, 49);
+    transform: translateY(-0.55em);
+
+}
+.pside1 {
+    margin-top: -1em;
+}
+.side2 {
+    background-color: hsl(179, 62%, 43%);
+    height: 300px;
+    width: 50%;
+    padding: 20px;
+    color: white;
+    border-bottom-right-radius: 5px;
+}
+li {
+    list-style: none;
+    line-height: 10px;
+    font-size: 1em;
+}
+ul {
+    padding-left: 1.5em;
+}
+
+@media (max-width: 500px) {
+    body {
+        padding: 2rem;
+    }
+    .secondPart {
+        display: flex;
+        flex-direction: column;
+    }
+    .main {
+        background-color: rgb(246, 250, 250);
+        border-radius: 5px;
+        width: 81%;
+    }
+    .side1 {
+        background-color: hsl(179, 68%, 30%);
+        height: 250px;
+        width: auto;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        border-bottom-left-radius: 0;
+    }
+    .side2 {
+        background-color: hsl(179, 62%, 43%);
+        height: 250px;
+        width: auto;
+        padding: 20px;
+        color: white;
+        border-bottom-right-radius: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        padding: 1rem;
+    }
+    .secondPart {
+        display: flex;
+        flex-direction: column;
+    }
+    .main {
+        background-color: rgb(246, 250, 250);
+        border-radius: 5px;
+        width: auto;
+    }
+    .side1 {
+        background-color: hsl(179, 68%, 30%);
+        height: 250px;
+        width: auto;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        border-bottom-left-radius: 0;
+    }
+    .side2 {
+        background-color: hsl(179, 62%, 43%);
+        height: 250px;
+        width: auto;
+        padding: 20px;
+        color: white;
+        border-bottom-right-radius: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        padding: 0.5rem;
+    }
+    .secondPart {
+        display: flex;
+        flex-direction: column;
+    }
+    .main {
+        background-color: rgb(246, 250, 250);
+        border-radius: 5px;
+        width: 100%;
+    }
+    .side1 {
+        background-color: hsl(179, 68%, 30%);
+        height: 250px;
+        width: auto;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        border-bottom-left-radius: 0;
+    }
+    
+
+    button {
+        background-color: hsl(71, 73%, 54%);
+        color: white;
+        padding: 15px 60px;
+        border-radius: 5px;
+        border: 0;
+        cursor: pointer;
+       
+        transition: 0.25s;
+    }
+    .side2 {
+        background-color: hsl(179, 62%, 43%);
+        height: 250px;
+        width: auto;
+        padding: 20px;
+        color: white;
+        border-bottom-right-radius: 0;
+    }
+}
+
