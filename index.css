@@ -98,6 +98,10 @@ ul {
 @media (max-width: 500px) {
     body {
         padding: 2rem;
+        margin: 12em 0;
+    }
+    h1 {
+        font-size: 2em;
     }
     .secondPart {
         display: flex;
@@ -130,6 +134,10 @@ ul {
 @media (max-width: 375px) {
     body {
         padding: 1rem;
+        margin: 12em 0;
+    }
+    h1 {
+        font-size: 1.7em;
     }
     .secondPart {
         display: flex;
@@ -162,6 +170,10 @@ ul {
 @media (max-width: 320px) {
     body {
         padding: 0.5rem;
+        margin: 12em 0;
+    }
+    h1 {
+        font-size: 1.5em;
     }
     .secondPart {
         display: flex;
